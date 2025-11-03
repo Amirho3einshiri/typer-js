@@ -1,3 +1,4 @@
+// comiit test
 // File: typer.js
 
 class Typer {
