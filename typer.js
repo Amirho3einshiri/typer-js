@@ -1,6 +1,3 @@
-// comiit test
-// File: typer.js
-
 class Typer {
   constructor(text, speed = 100) {
     this.text = text;
@@ -19,10 +16,7 @@ class Typer {
     }
   }
 }
-
-// استفاده از کلاس
 const welcomeMessage = new Typer("سلام! این یه پروژه حرفه‌ای جاوااسکریپت هست 😎", 80);
 welcomeMessage.type(() => {
-  console.log("📦 آماده کامیت و پوش به گیت‌هاب!");
 });
 
